@@ -239,7 +239,7 @@ bear_map.save(webmap_properties)
 
 <img src="./image/17.png" width=90% />
 
-## オプション 2 ArcGIS Notebooks アシスタントの利用
+## オプション 2 : ArcGIS Notebooks アシスタントの利用
 
 2026 年 2 月のアップデートで ArcGIS Notebooks アシスタントがベータ版で追加されました。
 オプション 2 では、ArcGIS Notebooks アシスタントの利用方法をご紹介します。
