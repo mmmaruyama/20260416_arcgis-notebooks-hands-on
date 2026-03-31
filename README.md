@@ -3,7 +3,7 @@
 本セッションの前半では ArcGIS Notebooks の概要を紹介し、後半では実際に ArcGIS Notebooks を使った ArcGIS Online の操作の流れを体験していただきます。  
 
 ## 事前準備
-- 配布しているユーザー情報で ArcGIS Online のアカウントにサイン インしてください。
+- 配布しているユーザー情報で [ArcGIS Online](https://www.arcgis.com/index.html) にサイン インしてください。
 - [演習テキスト](.//HandsOn/README.md) に沿って進めます。
 
 
