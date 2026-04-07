@@ -1,6 +1,6 @@
 # BP 最新情報セミナー2026　Python で Web GIS の業務を効率化！ArcGIS Notebooks ハンズオン
 
-本セッションの前半では ArcGIS Notebooks の概要を紹介し、後半では実際に ArcGIS Notebooks を使った ArcGIS Online の操作の流れを体験していただきます。  
+本セッションの前半では ArcGIS Notebooks の概要を紹介し、後半では実際に ArcGIS Notebooks を使った操作の流れを体験していただきます。  
 
 ## 事前準備
 - 配布しているユーザー情報で [ArcGIS Online](https://www.arcgis.com/index.html) にサイン インしてください。

@@ -5,6 +5,7 @@
 
 > [!CAUTION]
 > ノートブックは約 20 分間操作がない状態が続くとセッションが自動的に切断されますのでご注意ください。
+> また、このハンズオンでは一部の手順に ArcGIS Online のクレジットを使用します。
 
 ## ステップ 1 : ノートブックの作成と基本操作
 
@@ -26,7 +27,7 @@ ArcGIS Online にサイン インができたらノートブックを作成し�
 <img src="./image/02.png" width=40% />
 
 > [!NOTE]
-> ノートブック ランタイムには Standard、Advanced、Advanced with GPU サポート の 3 つのオプションがあります。本ハンズオンでは、Standard ランタイムを使⽤します。詳細は[ノートブックのランタイムを指定](https://doc.arcgis.com/ja/arcgis-online/create-maps/specify-the-runtime-of-a-notebook.htm)をご参照ください。
+> ノートブック ランタイムには Standard、Advanced、Advanced with GPU サポート の 3 つのオプションがあります。本ハンズオンでは、Standard ランタイムを使⽤します。詳細は「[ノートブックのランタイムを指定](https://doc.arcgis.com/ja/arcgis-online/create-maps/specify-the-runtime-of-a-notebook.htm)」をご参照ください。
 > また ノートブック ランタイムのほかにテンプレート ノートブックも選択できます。あらかじめコードが記載されたテンプレートから始めることもできます。
 
 新しいノートブック には、いくつかのマークダウン セルと、ArcGIS API for Python を呼び出して ArcGIS Online に接続する 1 つのコード セルがすでに入力されている状態から始まります。その後、コードとマークダウン セルを追加して、ワークフローを作成することができます。
@@ -77,7 +78,7 @@ gis = GIS("home")
 このステップではノートブックでマップを作成します。
 そのためには、マップを表す変数を定義し、ArcGIS API for Python を使⽤して、特定の場所を中⼼としたマップに変数を設定します。
 
-1. 新しいコード セルに以下のコードを入力します。`my_map` という名前の変数を作成し、[map() メソッド](https://developers.arcgis.com/python/latest/api-reference/arcgis.gis.toc.html#arcgis.gis.GIS.map)を使用して山口県を中⼼としたマップを作成します。
+1. 新しいコード セルに以下のコードを入力し、実行します。`my_map` という名前の変数を作成し、[map() メソッド](https://developers.arcgis.com/python/latest/api-reference/arcgis.gis.toc.html#arcgis.gis.GIS.map)を使用して山口県を中⼼としたマップを作成します。
 
 > [!NOTE]
 > セルを実行すると、実行したセルの下に新しいセルが追加されます。リボンの [＋] ボタンをクリックして、ノートブック内の任意の場所にセルを追加することもできます。
@@ -96,10 +97,10 @@ my_map
 
 実⾏するとノートブックに、マップが表⽰されます。
 
+<img src="./image/08.png" width=90% />
+
 > [!NOTE]
 > 前のセルに戻って、"山口県" を別の場所に変更し (例えば、”Yokohama”、”横浜市”、”Tokushima”、"徳島市" など) 、再度、セルを実⾏することで、地図の中⼼の位置を変更することができます。
-
-<img src="./image/08.png" width=90% />
 
 次に ArcGIS Notebooks でレイヤーを検索し、マップに追加します。
 
